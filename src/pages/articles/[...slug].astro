@@ -10,14 +10,22 @@ const { article } = Astro.props;
 const { Content } = await render(article);
 const canonical = new URL(`/articles/${article.id}/`, "https://blog.greystudio.online").toString();
 ---
-<BaseLayout title={article.data.title} description={article.data.description} canonical={canonical}>
+<BaseLayout title={article.data.title} description={article.data.description} canonical={canonical} image={article.data.image ? new URL(article.data.image, "https://blog.greystudio.online").toString() : undefined}>
   <SiteHeader />
   <main class="post">
     <span class="eyebrow">{article.data.category}</span>
     <h1>{article.data.title}</h1>
     <p class="dek">{article.data.description}</p>
     <div class="meta">Published {article.data.publishDate.toLocaleDateString("en-IN",{day:"numeric",month:"long",year:"numeric"})}{article.data.updatedDate ? ` · Updated ${article.data.updatedDate.toLocaleDateString("en-IN")}` : ""}</div>
+    {article.data.image && <figure class="post-cover"><img src={article.data.image} alt={article.data.imageAlt ?? article.data.title} fetchpriority="high" /><figcaption>{article.data.imageAlt ?? article.data.title}</figcaption></figure>}
     <article class="post-content"><Content /></article>
+    <section class="article-end-cta">
+      <span class="eyebrow">Have a project in mind?</span>
+      <h2>Let’s make your next idea happen.</h2>
+      <p>Talk with GreyStudio about your website, branding, content, photography or print requirements. We’ll understand the brief before recommending the next step.</p>
+      <a class="button-link" href="https://www.greystudio.online/book">Start a project <span>↗</span></a>
+      <a class="cta-secondary" href="https://wa.me/916281256601">Prefer WhatsApp? Start a conversation</a>
+    </section>
     <nav class="post-nav"><a href={`/category/${article.data.category.toLowerCase().replaceAll(" & ","-").replaceAll(" ","-")}/`}>← Explore category</a><a href="/">Back to journal →</a></nav>
   </main>
 </BaseLayout>

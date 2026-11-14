@@ -1,0 +1,11 @@
+---
+import { SITE } from "../data/site";
+---
+<header class="masthead">
+  <div class="shell nav">
+    <a class="wordmark" href="/">GREYSTUDIO<span>.</span></a>
+    <nav class="nav-links" aria-label="Main navigation">
+      {SITE.navigation.map((item) => <a href={item.href}>{item.label}</a>)}
+    </nav>
+  </div>
+</header>

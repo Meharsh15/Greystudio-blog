@@ -15,7 +15,10 @@ const articles = all.filter((a) => a.data.category === category.name).sort((a,b)
   <main class="shell">
     <header class="page-head"><span class="eyebrow">Category · GreyStudio Journal</span><h1>{category.name}</h1><p>{category.intro}</p></header>
     <section class="listing">
-      {articles.length ? <div class="article-grid">{articles.map((article) => <a class="article-card" href={`/articles/${article.id}/`}><span class="meta">{article.data.publishDate.toLocaleDateString("en-IN",{day:"numeric",month:"short",year:"numeric"})}</span><h3>{article.data.title}</h3><p>{article.data.description}</p><span class="text-link">Read article ↗</span></a>)}</div> : <p>New articles in this category are coming soon.</p>}
+      {articles.length ? <div class="article-grid">{articles.map((article) => <a class="article-card" href={`/articles/${article.id}/`}>
+        <div class="card-image"><img src={article.data.image ?? "/og-default.svg"} alt={article.data.imageAlt ?? article.data.title} loading="lazy" /></div>
+        <div class="card-copy"><span class="meta">{article.data.publishDate.toLocaleDateString("en-IN",{day:"numeric",month:"short",year:"numeric"})}</span><h3>{article.data.title}</h3><p>{article.data.description}</p><span class="text-link">Read article ↗</span></div>
+      </a>)}</div> : <p>New articles in this category are coming soon.</p>}
     </section>
   </main>
 </BaseLayout>

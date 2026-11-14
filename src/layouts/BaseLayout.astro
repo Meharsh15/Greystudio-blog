@@ -68,7 +68,7 @@ const socialImage = image ?? new URL("/og-default.svg", SITE.url).toString();
   .lead-copy h2{font-size:clamp(28px,3.5vw,44px);line-height:1.12;margin:16px 0}
   .lead-copy p{font-size:15px;line-height:1.75;color:#696960;margin:0 0 22px}
   .button-link{display:inline-flex;align-items:center;gap:16px;background:#20211f;color:#fff;padding:14px 20px;border-radius:7px;font-size:13px;font-weight:700;transition:background .2s,transform .2s}
-  .button-link:hover{background:#8a5b3c;transform:translateY(-1px)}
+  .button-link:hover{background:#8a5b3c;color:#fff;transform:translateY(-1px)}
   .listing{padding:66px 0 90px}
   .article-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
   .article-card{background:#fff;border:1px solid #e8e8e1;overflow:hidden;display:flex;flex-direction:column;transition:transform .2s,border-color .2s}
@@ -103,6 +103,11 @@ const socialImage = image ?? new URL("/og-default.svg", SITE.url).toString();
   .post-content h2{font-size:30px}
   .post-content h3{font-size:22px}
   .post-content a{color:#8a5b3c;text-decoration:underline;text-underline-offset:3px}
+  .post-content a.button-link,.article-cta .button-link,.article-end-cta .button-link{color:#fff!important;text-decoration:none!important}
+  .post-content a.button-link:hover,.article-cta .button-link:hover{color:#fff!important}
+  .article-end-cta a.button-link,.article-end-cta a.button-link:hover{color:#20211f!important}
+  .article-cta .cta-secondary{color:#292a26!important;text-decoration:underline;text-underline-offset:4px}
+  .article-end-cta .cta-secondary{color:#fff!important;text-decoration:underline;text-underline-offset:4px}
   .post-content ul,.post-content ol{padding-left:24px}
   .post-content blockquote{border-left:2px solid #aa8060;margin:28px 0;padding:2px 0 2px 22px;color:#696960}
   .post-content img{max-width:100%;height:auto}

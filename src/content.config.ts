@@ -8,6 +8,8 @@ const articles = defineCollection({
     description: z.string(),
     publishDate: z.coerce.date(),
     updatedDate: z.coerce.date().optional(),
+    image: z.string().optional(),
+    imageAlt: z.string().optional(),
     category: z.enum([
       "Web Design & Development",
       "Branding & Graphic Design",

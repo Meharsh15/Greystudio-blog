@@ -34,6 +34,7 @@ const socialImage = image ?? new URL("/og-default.svg", SITE.url).toString();
       <div class="footer-inner">
         <a class="wordmark" href="/">GREYSTUDIO<span>.</span></a>
         <p>Ideas and practical guides for businesses building their next chapter.</p>
+        <a class="footer-main-link" href="https://greystudio.online/">Visit GreyStudio main website ↗</a>
         <span>© {new Date().getFullYear()} GreyStudio · Hyderabad, India</span>
       </div>
     </footer>
@@ -73,6 +74,8 @@ const socialImage = image ?? new URL("/og-default.svg", SITE.url).toString();
   .site-footer{background:#1d1d1a;color:#f5f5ef;padding:42px 0}
   .footer-inner{width:min(1160px,calc(100% - 48px));margin:auto;display:flex;align-items:center;justify-content:space-between;gap:20px;flex-wrap:wrap}
   .footer-inner p,.footer-inner span{font-size:11px;color:#b8b8af}
+  .footer-main-link{font-size:11px;font-weight:600;color:#f5f5ef;text-decoration:underline;text-underline-offset:4px}
+  .footer-main-link:hover{color:#c9b6a5}
   .page-head{padding:70px 0 42px}
   .page-head h1{font-size:clamp(38px,5vw,60px);margin:14px 0}
   .page-head p{color:#6e6e66;max-width:650px;line-height:1.7}

@@ -5,6 +5,8 @@ publishDate: 2026-11-14
 category: "Hyderabad Business Guides"
 tags: ["CBSE schools Hyderabad", "international schools Hyderabad", "IB schools Hyderabad", "Cambridge schools Hyderabad", "school admissions Hyderabad", "choosing a school"]
 featured: true
+image: "/images/choosing-school.svg"
+imageAlt: "Illustration of parents and a child meeting a school educator during a campus visit"
 draft: false
 ---
 
@@ -140,6 +142,14 @@ When comparing schools, consider the actual route from home, transport arrangeme
 Families in western Hyderabad may compare schools around Gachibowli, Kondapur, Nallagandla, Tellapur, Kokapet and the Financial District. Other families may look closer to Miyapur, Kukatpally, Attapur, Shamshabad or their own neighbourhood. These are examples of areas—not a claim that every school in one area serves every other area.
 
 Test the journey at the time your child would actually travel. Ask the school for its current transport routes and confirm whether your address is covered.
+
+<div class="article-cta">
+  <span class="eyebrow">Build a stronger school identity</span>
+  <h3>Planning your school’s next brand or admissions campaign?</h3>
+  <p>Discuss your goals with GreyStudio. We can help bring your school’s story together through strategy, design, photography, video and print.</p>
+  <a class="button-link" href="https://www.greystudio.online/book">Discuss a school project ↗</a>
+  <a class="cta-secondary" href="https://wa.me/916281256601">Or start a WhatsApp conversation</a>
+</div>
 
 ## 8. Questions to ask before admission
 

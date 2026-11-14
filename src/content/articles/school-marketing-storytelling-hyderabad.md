@@ -5,6 +5,8 @@ publishDate: 2026-11-14
 category: "Business Growth & Marketing"
 tags: ["school marketing Hyderabad", "CBSE school marketing", "international school branding", "school admissions", "education marketing", "school storytelling", "school photography"]
 featured: true
+image: "/images/school-storytelling.svg"
+imageAlt: "Illustration of a teacher and students collaborating on a classroom project"
 draft: false
 ---
 
@@ -212,6 +214,14 @@ A practical local plan:
 7. Track which channels produce relevant enquiries and campus visits—not just likes and views.
 
 Local visibility is strongest when online information matches the real experience families receive when they contact or visit the school.
+
+<div class="article-cta">
+  <span class="eyebrow">Build a stronger school identity</span>
+  <h3>Planning your school’s next brand or admissions campaign?</h3>
+  <p>Discuss your goals with GreyStudio. We can help bring your school’s story together through strategy, design, photography, video and print.</p>
+  <a class="button-link" href="https://www.greystudio.online/book">Discuss a school project ↗</a>
+  <a class="cta-secondary" href="https://wa.me/916281256601">Or start a WhatsApp conversation</a>
+</div>
 
 ## 8. Give printed materials a useful role in the admission journey
 

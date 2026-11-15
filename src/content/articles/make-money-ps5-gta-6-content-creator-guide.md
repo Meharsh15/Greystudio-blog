@@ -101,7 +101,7 @@ A channel built only around one launch can lose momentum. A channel built around
 
 ## 3. Turn one recording session into multiple pieces of content
 
-A creator does not need a completely new recording for every platform. With a planned workflow, one session can produce several distinct edits.
+A creator does not need a completely new recording for every platform. With a planned workflow, one session can produce several distinct edits. If you are choosing your editing app, see our guide to [the best video editing apps for iPhone and Android](https://blog.greystudio.online/articles/best-video-editing-apps-iphone-android-2026/).
 
 For example, a 60-minute recording session might lead to:
 
